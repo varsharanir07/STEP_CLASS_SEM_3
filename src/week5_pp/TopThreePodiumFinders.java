@@ -1,8 +1,8 @@
-package practice_problems;
+package week5_pp;
 
 import java.util.Arrays;
 
-public class TopThreePodiumFinder {
+public class TopThreePodiumFinders {
 
     static int[] findTopThreeScores(int[] scores) {
 
@@ -16,11 +16,9 @@ public class TopThreePodiumFinder {
                 third = second;
                 second = first;
                 first = score;
-
             } else if (score >= second) {
                 third = second;
                 second = score;
-
             } else if (score > third) {
                 third = score;
             }

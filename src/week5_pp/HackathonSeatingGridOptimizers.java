@@ -1,13 +1,13 @@
-package practice_problems;
+package week5_pp;
 
-public class HackathonSeatingGridOptimizer {
+public class HackathonSeatingGridOptimizers {
 
     static double rowAverage(int[] row) {
 
         int sum = 0;
 
-        for (int value : row) {
-            sum += value;
+        for (int marks : row) {
+            sum += marks;
         }
 
         return (double) sum / row.length;
@@ -19,17 +19,13 @@ public class HackathonSeatingGridOptimizer {
 
         for (int i = 0; i < seatingScores.length; i++) {
 
-            double avg = rowAverage(seatingScores[i]);
-
-            if (i > 0) {
-                result += " | ";
-            }
-
-            if (avg >= threshold) {
-                result += "Row " + i + ": Buzzing Zone";
-            } else {
+            if (rowAverage(seatingScores[i]) < threshold)
                 result += "Row " + i + ": Quiet Zone";
-            }
+            else
+                result += "Row " + i + ": Buzzing Zone";
+
+            if (i != seatingScores.length - 1)
+                result += " | ";
         }
 
         return result;

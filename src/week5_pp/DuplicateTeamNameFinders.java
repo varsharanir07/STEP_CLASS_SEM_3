@@ -1,6 +1,6 @@
-package practice_problems;
+package week5_pp;
 
-public class DuplicateTeamNameFinder {
+public class DuplicateTeamNameFinders {
 
     static String findDuplicateTeam(String[] teamNames) {
 
@@ -12,7 +12,6 @@ public class DuplicateTeamNameFinder {
                 }
             }
         }
-
         return "No Duplicates Found";
     }
 

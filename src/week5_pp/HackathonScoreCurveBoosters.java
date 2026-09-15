@@ -1,8 +1,8 @@
-package practice_problems;
+package week5_pp;
 
 import java.util.Arrays;
 
-public class HackathonScoreCurveBooster {
+public class HackathonScoreCurveBoosters {
 
     static void curveScores(int[] scores, int bonus) {
         for (int i = 0; i < scores.length; i++) {
