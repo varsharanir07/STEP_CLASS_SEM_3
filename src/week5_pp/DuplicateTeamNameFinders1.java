@@ -1,6 +1,6 @@
 package week5_pp;
 
-public class DuplicateTeamNameFinders {
+public class DuplicateTeamNameFinders1 {
 
     static String findDuplicateTeam(String[] teamNames) {
 

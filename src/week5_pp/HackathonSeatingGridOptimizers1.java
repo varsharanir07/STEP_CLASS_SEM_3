@@ -1,6 +1,6 @@
 package week5_pp;
 
-public class HackathonSeatingGridOptimizers {
+public class HackathonSeatingGridOptimizers1 {
 
     static double rowAverage(int[] row) {
 

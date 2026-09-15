@@ -2,7 +2,7 @@ package week5_pp;
 
 import java.util.Arrays;
 
-public class TopThreePodiumFinders {
+public class TopThreePodiumFinders1 {
 
     static int[] findTopThreeScores(int[] scores) {
 

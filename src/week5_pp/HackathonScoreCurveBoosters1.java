@@ -2,7 +2,7 @@ package week5_pp;
 
 import java.util.Arrays;
 
-public class HackathonScoreCurveBoosters {
+public class HackathonScoreCurveBoosters1 {
 
     static void curveScores(int[] scores, int bonus) {
         for (int i = 0; i < scores.length; i++) {
